@@ -21,6 +21,7 @@ const verifyUser = async (req, res, next) => {
                 message: "unsuccessfull"
             })
         }
+        // this is code
     } catch (error) {
         console.log("error in verify user", error.message);
         res.json({
