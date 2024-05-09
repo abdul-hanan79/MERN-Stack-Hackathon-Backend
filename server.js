@@ -20,7 +20,7 @@ dotenv.config();
 
 // middlewares
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://ecommerce-nextjs-project.vercel.app',
     credentials: true,
 }));
 app.use(fileUpload({
